@@ -1,0 +1,121 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap');
+
+  .inv-root { background: #000; color: #fff; font-family: 'Montserrat', sans-serif; position: relative; overflow: hidden; }
+  .floral-svg { position: absolute; pointer-events: none; }
+  .floral-tl { top: 0; left: 0; width: 260px; opacity: 0.18; }
+  .floral-br { bottom: 0; right: 0; width: 220px; opacity: 0.15; transform: rotate(180deg); }
+  .floral-tr { top: 0; right: 0; width: 120px; opacity: 0.12; transform: scaleX(-1); }
+  .inv-content { position: relative; z-index: 2; max-width: 680px; margin: 0 auto; padding: 3rem 2rem 2.5rem; }
+  .together-line { text-align: center; font-size: 11px; letter-spacing: 0.3em; font-weight: 400; color: rgba(255,255,255,0.6); text-transform: uppercase; margin-bottom: 0.3rem; }
+  .names-block { text-align: center; margin: 0.5rem 0 1.2rem; }
+  .name-script { font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 300; font-size: 3.6rem; color: #fff; line-height: 1.15; display: block; letter-spacing: -0.01em; }
+  .name-underline { display: inline-block; border-bottom: 1.5px solid rgba(255,255,255,0.6); padding-bottom: 2px; }
+  .ampersand { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 2.6rem; color: rgba(255,255,255,0.7); display: block; margin: 0.1rem 0; }
+  .divider-line { width: 60px; height: 0.5px; background: rgba(255,255,255,0.3); margin: 1.2rem auto; }
+  .invite-text { text-align: center; font-size: 10px; letter-spacing: 0.28em; font-weight: 500; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 1.5rem; line-height: 1.9; }
+  .date-block { display: flex; align-items: center; justify-content: center; margin: 0.8rem 0 1.5rem; }
+  .date-side { text-align: center; flex: 1; }
+  .date-side-label { display: block; font-size: 9px; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(255,255,255,0.55); border-top: 0.5px solid rgba(255,255,255,0.3); border-bottom: 0.5px solid rgba(255,255,255,0.3); padding: 5px 0; font-weight: 500; }
+  .date-center { text-align: center; padding: 0 1.5rem; }
+  .date-month { display: block; font-size: 9px; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(255,255,255,0.55); font-weight: 500; }
+  .date-day { display: block; font-family: 'Cormorant Garamond', serif; font-size: 4rem; font-weight: 300; color: #fff; line-height: 1; margin: 2px 0; }
+  .date-year { display: block; font-size: 10px; letter-spacing: 0.2em; color: rgba(255,255,255,0.55); font-weight: 400; }
+  .location-line { text-align: center; font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(255,255,255,0.6); font-weight: 500; margin-bottom: 2rem; }
+  .inv-body { border-top: 0.5px solid rgba(255,255,255,0.12); padding-top: 1.8rem; margin-bottom: 1.8rem; }
+  .salutation { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.1rem; color: rgba(255,255,255,0.75); margin-bottom: 1rem; text-align: center; }
+  .body-para { font-size: 13px; line-height: 2; color: rgba(255,255,255,0.65); margin-bottom: 1rem; text-align: center; font-weight: 300; letter-spacing: 0.03em; }
+  .body-para strong { color: rgba(255,255,255,0.9); font-weight: 500; }
+  .closing-block { text-align: center; border-top: 0.5px solid rgba(255,255,255,0.12); padding-top: 1.5rem; padding-bottom: 2rem; }
+  .closing-label { font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase; color: rgba(255,255,255,0.45); display: block; margin-bottom: 0.5rem; }
+  .closing-names { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.4rem; color: rgba(255,255,255,0.85); }
+</style>
+
+<div class="inv-root">
+
+  <svg class="floral-svg floral-tl" viewBox="0 0 300 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="60" cy="40" r="30" stroke="white" stroke-width="0.8" fill="none"/>
+    <circle cx="60" cy="40" r="18" stroke="white" stroke-width="0.6" fill="none"/>
+    <line x1="60" y1="10" x2="60" y2="70" stroke="white" stroke-width="0.6"/>
+    <line x1="30" y1="40" x2="90" y2="40" stroke="white" stroke-width="0.6"/>
+    <line x1="39" y1="19" x2="81" y2="61" stroke="white" stroke-width="0.5"/>
+    <line x1="81" y1="19" x2="39" y2="61" stroke="white" stroke-width="0.5"/>
+    <circle cx="140" cy="80" r="24" stroke="white" stroke-width="0.7" fill="none"/>
+    <circle cx="140" cy="80" r="14" stroke="white" stroke-width="0.5" fill="none"/>
+    <line x1="140" y1="56" x2="140" y2="104" stroke="white" stroke-width="0.5"/>
+    <line x1="116" y1="80" x2="164" y2="80" stroke="white" stroke-width="0.5"/>
+    <line x1="123" y1="63" x2="157" y2="97" stroke="white" stroke-width="0.4"/>
+    <line x1="157" y1="63" x2="123" y2="97" stroke="white" stroke-width="0.4"/>
+    <circle cx="30" cy="130" r="18" stroke="white" stroke-width="0.6" fill="none"/>
+    <line x1="30" y1="112" x2="30" y2="148" stroke="white" stroke-width="0.5"/>
+    <line x1="12" y1="130" x2="48" y2="130" stroke="white" stroke-width="0.5"/>
+    <path d="M80 20 Q100 50 120 30 Q140 10 160 40" stroke="white" stroke-width="0.5" fill="none"/>
+    <path d="M10 70 Q40 90 20 120 Q5 145 30 160" stroke="white" stroke-width="0.5" fill="none"/>
+    <ellipse cx="170" cy="50" rx="12" ry="7" stroke="white" stroke-width="0.5" fill="none" transform="rotate(-30 170 50)"/>
+    <ellipse cx="50" cy="200" rx="14" ry="8" stroke="white" stroke-width="0.5" fill="none" transform="rotate(15 50 200)"/>
+    <circle cx="175" cy="42" r="2" fill="white" opacity="0.5"/>
+    <circle cx="55" cy="195" r="2" fill="white" opacity="0.5"/>
+  </svg>
+
+  <svg class="floral-svg floral-br" viewBox="0 0 300 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="200" cy="260" r="32" stroke="white" stroke-width="0.8" fill="none"/>
+    <circle cx="200" cy="260" r="20" stroke="white" stroke-width="0.6" fill="none"/>
+    <line x1="200" y1="228" x2="200" y2="292" stroke="white" stroke-width="0.6"/>
+    <line x1="168" y1="260" x2="232" y2="260" stroke="white" stroke-width="0.6"/>
+    <line x1="177" y1="237" x2="223" y2="283" stroke="white" stroke-width="0.5"/>
+    <line x1="223" y1="237" x2="177" y2="283" stroke="white" stroke-width="0.5"/>
+    <circle cx="100" cy="300" r="22" stroke="white" stroke-width="0.7" fill="none"/>
+    <line x1="100" y1="278" x2="100" y2="322" stroke="white" stroke-width="0.5"/>
+    <line x1="78" y1="300" x2="122" y2="300" stroke="white" stroke-width="0.5"/>
+    <path d="M260 340 Q240 310 260 280 Q275 255 250 240" stroke="white" stroke-width="0.5" fill="none"/>
+    <ellipse cx="130" cy="240" rx="14" ry="8" stroke="white" stroke-width="0.5" fill="none" transform="rotate(25 130 240)"/>
+    <circle cx="135" cy="235" r="2" fill="white" opacity="0.5"/>
+  </svg>
+
+  <svg class="floral-svg floral-tr" viewBox="0 0 150 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M100 10 Q120 40 100 70 Q85 95 110 110" stroke="white" stroke-width="0.5" fill="none"/>
+    <ellipse cx="105" cy="113" rx="10" ry="6" stroke="white" stroke-width="0.5" fill="none" transform="rotate(20 105 113)"/>
+    <path d="M130 30 Q145 55 130 80 Q118 100 135 120" stroke="white" stroke-width="0.4" fill="none"/>
+  </svg>
+
+  <div class="inv-content">
+    <p class="together-line">Together with their families</p>
+
+    <div class="names-block">
+      <span class="name-script"><span class="name-underline">Franck Kae</span></span>
+      <span class="ampersand">&amp;</span>
+      <span class="name-script"><span class="name-underline">Happy Giramata</span></span>
+    </div>
+
+    <p class="invite-text">Invite you to join their<br>wedding celebration on</p>
+
+    <div class="date-block">
+      <div class="date-side"><span class="date-side-label">Saturday</span></div>
+      <div class="date-center">
+        <span class="date-month">December</span>
+        <span class="date-day">12</span>
+        <span class="date-year">2026</span>
+      </div>
+      <div class="date-side"><span class="date-side-label">At 9:30 AM</span></div>
+    </div>
+
+    <p class="location-line">Kigali, Rwanda</p>
+
+    <div class="divider-line"></div>
+
+    <div class="inv-body">
+      <p class="salutation">Dear Friends, Family, and Loved Ones,</p>
+      <p class="body-para">With hearts full of joy and gratitude, we warmly invite you to join us in celebrating the special union of <strong>Franck Kae and Happy Giramata</strong>.</p>
+      <p class="body-para">This memorable occasion will take place on <strong>December 12th at 9:30 AM in Kigali, Rwanda, Africa</strong>. Your presence would mean so much to us as we come together to share love, happiness, and unforgettable moments.</p>
+      <p class="body-para">We look forward to celebrating this beautiful day surrounded by the people who matter most. Your prayers, support, and joyful company are the greatest gifts we could receive. Donations are also warmly welcomed and deeply appreciated.</p>
+      <p class="body-para">May this gathering be filled with love, laughter, unity, and lasting memories.<br>We sincerely hope you can join us.</p>
+    </div>
+
+    <div class="closing-block">
+      <span class="closing-label">With love and gratitude</span>
+      <span class="closing-names">Franck Kae &amp; Happy Giramata</span>
+      <span style="display:block; margin-top:6px; color:rgba(255,255,255,0.5); font-size:0.9rem;">♥</span>
+    </div>
+  </div>
+</div>
